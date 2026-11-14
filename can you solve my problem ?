@@ -1,0 +1,23 @@
+# 🧩 The Mathematician's Chessboard Puzzle
+
+Two prisoners, Alice and Bob, are offered a chance to escape by solving a puzzle.
+
+The king places 64 coins on a chessboard, one on each square. Every coin shows either heads or tails, arranged however the king chooses. (It is 2^64) &#197;
+
+The king then secretly hides a diamond beneath one of the 64 squares. Anywhere he wants.;
+
+### The Rules
+
+1. **Alice enters first.  She can see the entire board and knows exactly where the diamond is hidden.
+2. Alice must flip exactly one coin (heads to tails or tails to heads). She cannot move or rearrange any coins.
+3. Alice leaves, and Bob enters. He can see the final arrangement of all 64 coins, but he does not know where the diamond is or which coin Alice flipped.
+4. Alice and Bob cannot communicate during the experiment, but they may agree on a strategy beforehand.
+5. Neither prisoner knows the initial arrangement of the coins in advance.
+
+### The Challenge
+
+**Can Alice and Bob devise a strategy that guarantees Bob will identify the exact square containing the diamond?**
+
+The strategy must work for every possible initial arrangement of the 64 coins and every possible diamond location.
+
+If you believe it is possible, describe the strategy and prove why it always works.
